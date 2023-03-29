@@ -47,4 +47,13 @@ class LessonController < ApplicationController
     def step14 
         @message = "ご機嫌いかが？ \nRailsの勉強頑張るしかないわ"
     end
+    def step15 
+    end
+    def step17 
+        @zaiko = 10
+    end
+    def step18 
+        @items = {"フライパン" => 2680, "ワイングラス"=> 2550, "ペッパーミル"=> 4515, "ピーラー"=> 945}
+    end
+
 end

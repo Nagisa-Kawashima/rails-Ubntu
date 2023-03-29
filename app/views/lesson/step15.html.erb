@@ -1,0 +1,14 @@
+<p><%= link_to "Home", root_path %></p>
+<p>
+    <%= link_to_unless_current "Home", root_path do  %>
+    <span class= "current">Home</span>
+    <% end %>
+</p> 
+<%= image_tag("image.jpg", size: "64x20", alt:"Ruby on Rails", align: "top") %>
+
+<%= link_to(image_tag("image.jpg", size: "64x20", alt: "Ruby on Rails", align: "top"), "http://rubyonrails.org/") %>
+
+<%= tag(:br) %>
+<%= content_tag(:p, class: "pl") do %>
+こんにちは
+<% end %>
