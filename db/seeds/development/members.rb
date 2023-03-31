@@ -1,4 +1,4 @@
-names = %w(Taro Jiro Hana John MIke Sophy Bill Alex Mary Tom)
+names = %w(Taro Jiro Hana John Mike Sophy Bill Alex Mary Tom)
 fnames = ["佐藤", "鈴木", "高橋", "田中"]
 gnames = ["太郎", "二郎", "花子"]
 0.upto(9) do  |idx|
