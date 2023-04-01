@@ -70,3 +70,9 @@ footer {
     text-align: center;
     /* padding: 10px; */
 } 
+ul.toolbar,
+div.toolbar {
+    padding: 15px 0;
+    font-size: 90%;
+    text-align: right;
+} 
